@@ -4,8 +4,6 @@ $('.page-scroll').on('click', function(e) {
 
    
     var elemenTujuan = $(tujuan);
-
-    console.log(tujuan);
    
     $('html , body').animate({
      scrollTop: elemenTujuan.offset().top - 50
@@ -63,4 +61,7 @@ $(window).on('load', function(){
         $('.header').addClass('slidekiri');  
 });
 
-
+$('.nav-item').on("click" , () => {
+    $(".nav-item").removeClass("active")
+    $(this).addClass("active")
+})
