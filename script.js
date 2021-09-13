@@ -61,7 +61,7 @@ $(window).on('load', function(){
         $('.header').addClass('slidekiri');  
 });
 
-$('.nav-item').on("click" , () => {
-    $(".nav-item").removeClass("active")
-    $(this).addClass("active")
-})
+// $('.nav-item').on("click" , () => {
+//     $(".nav-item").removeClass("active")
+//     $(this).addClass("active")
+// })
